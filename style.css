@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,900;1,100;1,400;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navLink {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    margin-right: 40px;
+    padding-right: 30px;
+    align-items: center;
+}
+
+#navLink > li > a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: normal;
+    color: black;
+}
+
+#navLink > li > a:hover {
+    text-decoration: underline;
+}
+
+#home-content {
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#big-name {
+    font-size: 100px;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+#interest {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+#social-media {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    margin-right: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+img:hover {
+    background-color: rgb(226, 226, 226);
+    
+}
+
+#about-content {
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    width: 50%;
+    text-align: justify;
+}
+
+#about-title, #porto-title {
+    font-size: 30px;
+}
+
+#myIntroduction {
+    font-size: 17px;
+}
+
+#portoTitle {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    width: 50%;
+    text-align: left;
+
+}
+
+#porto-content {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    width: 50%;
+    text-align: left;
+    display: grid;
+    text-align: justify;
+}
+
+#porto-title {  
+    text-align: center;
+}
+
+
+#hardskill, #hardskill-content {
+    grid-column: 1 / 2;
+    
+}
+
+#hardskill {
+    grid-row: 2/2;
+}
+
+#hardskill-content {
+    grid-row: 3/3;
+}
+
+#softskill, #softskill-content {
+    grid-column: 2 / 3;
+    
+}
+
+#softskill {
+    grid-row: 2/2;
+}
+
+#softskill-content {
+    grid-row: 3/3;
+}
+
+#softskill-content > li, #hardskill-content > li {
+    margin-left: -18px;
+}
+
+#project {
+    grid-column: 1/2;
+    grid-row: 4/4;
+}
+
+#project-content {
+    grid-column: 1/2;
+    grid-row: 5/5;
+    
+}
+
+#project-content > li > a {
+    text-decoration: none;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+#project-content > li > a:hover {
+    color: blue;
+}
+
+#project-content > li {
+    margin-bottom: 30px;
+    margin-left: -18px;
+}
+
+#blog-title {
+    margin: 0 auto;
+    margin-bottom: -30px;
+    padding: 10px;
+    padding-top: 20px;
+    background-color: #fff;
+    width: 50%;
+}
+
+#blog-title > h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#blog-content {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-content h3 {
+    font-size: 1.5rem;
+    margin-top: 0;
+}
+
+.card-content p {
+    font-size: 1rem;
+}
+
+.card a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
